@@ -14,7 +14,7 @@
 	<name>SnowParkApp</name>
 	<description>Demo project for SnowPark Application</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>13</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -25,7 +25,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -36,6 +35,11 @@
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.snowflake</groupId>
+			<artifactId>snowpark</artifactId>
+			<version>1.4.0</version>
+		</dependency>		
 	</dependencies>
 
 	<build>
