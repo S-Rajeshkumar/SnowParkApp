@@ -9,7 +9,8 @@ public class Car {
 	private String brand;
 	private String color;
 	private String type;
-	private int price;
+	private int startingPrice;
+	private int endingPrice;
 	private boolean available;
 	private LocalDate firstReleaseDate;
 	private List<String> additionalFeatures;
@@ -18,6 +19,14 @@ public class Car {
 
 	public Car() {
 		super();
+	}
+
+	public int getEndingPrice() {
+		return endingPrice;
+	}
+
+	public void setEndingPrice(int endingPrice) {
+		this.endingPrice = endingPrice;
 	}
 
 	public Car(String brand, String color, String type) {
@@ -51,8 +60,8 @@ public class Car {
 		return id;
 	}
 
-	public int getPrice() {
-		return price;
+	public int getStartingPrice() {
+		return startingPrice;
 	}
 
 	public List<Tire> getTires() {
@@ -95,8 +104,8 @@ public class Car {
 		this.id = id;
 	}
 
-	public void setPrice(int price) {
-		this.price = price;
+	public void setStartingPrice(int startingPrice) {
+		this.startingPrice = startingPrice;
 	}
 
 	public void setTires(List<Tire> tires) {
@@ -109,9 +118,10 @@ public class Car {
 
 	@Override
 	public String toString() {
-		return "Car [brand=" + brand + ", color=" + color + ", type=" + type + ", price=" + price + ", available="
-				+ available + ", firstReleaseDate=" + firstReleaseDate + ", additionalFeatures=" + additionalFeatures
-				+ ", engine=" + engine + ", tires=" + tires + "]";
+		return "Car [additionalFeatures=" + additionalFeatures + ", available=" + available + ", brand=" + brand
+				+ ", color=" + color + ", endingPrice=" + endingPrice + ", engine=" + engine + ", firstReleaseDate="
+				+ firstReleaseDate + ", id=" + id + ", startingPrice=" + startingPrice + ", tires=" + tires + ", type="
+				+ type + "]";
 	}
 
 }

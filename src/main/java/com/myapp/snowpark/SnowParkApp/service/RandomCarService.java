@@ -17,6 +17,8 @@ public class RandomCarService implements CarService{
     @Override
 	public Car generateCar() {
 		
+		Integer id = ThreadLocalRandom.current().nextInt(10);
+
 		var brand = BRANDS.get(ThreadLocalRandom.current().nextInt(0, BRANDS.size()));
 		
 		var color = COLORS.get(ThreadLocalRandom.current().nextInt(0, COLORS.size()));
@@ -25,8 +27,10 @@ public class RandomCarService implements CarService{
 		
 		var available = ThreadLocalRandom.current().nextBoolean();
 		
-		var price = ThreadLocalRandom.current().nextInt(5000, 12001);
+		var startingPrice = ThreadLocalRandom.current().nextInt(5000, 12001);
 		
+		var endingPrice = ThreadLocalRandom.current().nextInt(12001, 15001);
+
 		var firstReleaseDate = RandomDateUtil.generateRandomLocalDate();
 		
 		int randomCount = ThreadLocalRandom.current().nextInt(ADDITIONAL_FEATURES.size());
@@ -56,8 +60,10 @@ public class RandomCarService implements CarService{
 		}
 		
 		var result = new Car(brand, color, type);
+		result.setId(id.toString());
 		result.setAvailable(available);
-		result.setPrice(price);
+		result.setStartingPrice(startingPrice);
+		result.setEndingPrice(endingPrice);
 		result.setFirstReleaseDate(firstReleaseDate);
 		result.setAdditionalFeatures(additionalFeatures);
 		result.setEngine(engine);

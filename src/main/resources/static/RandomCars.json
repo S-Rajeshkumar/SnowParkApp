@@ -1,0 +1,176 @@
+[
+    {
+        "id": "5",
+        "brand": "Benz",
+        "color": "Black",
+        "type": "Sedan",
+        "startingPrice": 10709,
+        "endingPrice": 13579,
+        "available": true,
+        "firstReleaseDate": "2010-05-24",
+        "additionalFeatures": [
+            "GPS",
+            "Alarm",
+            "Sunroof"
+        ],
+        "engine": {
+            "fuelType": "Electric",
+            "horsePower": 163
+        },
+        "tires": [
+            {
+                "tireManufacturer": "CEAT",
+                "size": 15,
+                "price": 419
+            },
+            {
+                "tireManufacturer": "APOLLO",
+                "size": 15,
+                "price": 297
+            },
+            {
+                "tireManufacturer": "CEAT",
+                "size": 17,
+                "price": 339
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "brand": "Benz",
+        "color": "Red",
+        "type": "Sedan",
+        "startingPrice": 7726,
+        "endingPrice": 12589,
+        "available": true,
+        "firstReleaseDate": "2015-05-23",
+        "additionalFeatures": [
+            "GPS"
+        ],
+        "engine": {
+            "fuelType": "Petrol",
+            "horsePower": 125
+        },
+        "tires": [
+            {
+                "tireManufacturer": "MRF",
+                "size": 15,
+                "price": 294
+            },
+            {
+                "tireManufacturer": "CEAT",
+                "size": 17,
+                "price": 330
+            },
+            {
+                "tireManufacturer": "MRF",
+                "size": 17,
+                "price": 426
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "brand": "Toyota",
+        "color": "White",
+        "type": "Hatch",
+        "startingPrice": 8287,
+        "endingPrice": 13776,
+        "available": false,
+        "firstReleaseDate": "2013-01-03",
+        "additionalFeatures": [
+            "GPS",
+            "Alarm"
+        ],
+        "engine": {
+            "fuelType": "Hybrid",
+            "horsePower": 138
+        },
+        "tires": [
+            {
+                "tireManufacturer": "Roadster",
+                "size": 15,
+                "price": 472
+            },
+            {
+                "tireManufacturer": "APOLLO",
+                "size": 16,
+                "price": 203
+            },
+            {
+                "tireManufacturer": "MRF",
+                "size": 15,
+                "price": 366
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "brand": "Toyota",
+        "color": "Blue",
+        "type": "Convertible",
+        "startingPrice": 5783,
+        "endingPrice": 14899,
+        "available": true,
+        "firstReleaseDate": "2010-08-20",
+        "additionalFeatures": [],
+        "engine": {
+            "fuelType": "Diesel",
+            "horsePower": 221
+        },
+        "tires": [
+            {
+                "tireManufacturer": "Roadster",
+                "size": 16,
+                "price": 382
+            },
+            {
+                "tireManufacturer": "APOLLO",
+                "size": 16,
+                "price": 318
+            },
+            {
+                "tireManufacturer": "MRF",
+                "size": 15,
+                "price": 208
+            }
+        ]
+    },
+    {
+        "id": "1",
+        "brand": "BMW",
+        "color": "Silver",
+        "type": "Convertible",
+        "startingPrice": 11999,
+        "endingPrice": 14999,
+        "available": false,
+        "firstReleaseDate": "2018-10-07",
+        "additionalFeatures": [
+            "GPS",
+            "Alarm",
+            "Sunroof",
+            "Touchpad"
+        ],
+        "engine": {
+            "fuelType": "Petrol",
+            "horsePower": 197
+        },
+        "tires": [
+            {
+                "tireManufacturer": "CEAT",
+                "size": 17,
+                "price": 246
+            },
+            {
+                "tireManufacturer": "Roadster",
+                "size": 17,
+                "price": 478
+            },
+            {
+                "tireManufacturer": "Roadster",
+                "size": 17,
+                "price": 266
+            }
+        ]
+    }
+]
